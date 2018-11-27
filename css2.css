@@ -1,0 +1,224 @@
+/*body{
+	font-family: "Segoe UI";
+	font-weight: 400;
+}
+
+.navbar{
+	margin:0;
+	padding: 0;
+	align-self: center;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+}
+
+li {
+	float: left;
+}
+
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+li a:hover {
+	background-color: #111;
+}*/
+
+
+
+
+@font-face {
+	font-family: "Segoe UI";
+	font-weight: 400;
+	/*src:url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff");*/
+}
+
+body {
+	background-color: #FF5733;
+	font-family: 'Segoe UI';
+	margin: 0;
+	padding: 0;
+}
+
+.header {
+	display: grid;
+	grid-template-columns: 1fr;
+	background-color: #323232;
+	opacity: .96;
+	height: 3.5em;
+	width: 100%;
+	color: #FAFAFA;
+	text-align: center;
+	align-items: center;
+	position: absolute;
+}
+
+ul {
+	list-style-type: none:
+	margin:0;
+	padding: 0;
+}
+
+li {
+	padding-right: 3em;
+	padding-left: 3em;
+	display: inline;
+}
+
+li > a:hover {
+	color: #FF0000;
+}
+
+/*.header > div > ul > li > img {
+	align-items: left;
+	width: 30px;
+	padding-right: : 1em;
+	padding-bottom: 3em;
+}*/
+
+
+.xcontainer {
+	width: 100%;
+	height: 530px;
+	text-align: center;
+	padding-top: 8em;
+}
+
+.xcontainer h1{
+	font-weight: 8em;
+	font-size: 75px;
+	text-align: center;
+}
+
+.xcontainer img{
+	height: 320px;
+	width: 320px;
+	border-radius: 50px 50px 50px 50px;
+	align-self: center;
+}
+
+#x {
+	/*margin-top: 4em;*/
+	font-size: 55px;
+	font-weight: 600;
+}
+
+#x:hover {
+	color: #959595;
+}
+
+#xhello {
+	font-size: 30px;
+	font-weight: 500;
+}
+
+
+.xcontainer2 {
+	margin-top: 100px;
+	width: 1290px;
+	height: 1000px;
+	border-radius: 30px 30px 30px 30px;
+	text-align: center;
+	margin-left: 30px;
+	margin-right: 30px;
+	background: #FF3E15;
+	position: absolute;	
+}
+
+.xcontainer2 .gambar img{
+	margin-top: 20px;
+	margin-right: 800px;
+	width: 30%;
+	height: 550px;
+	border-radius: 50px 50px 50px 50px;
+}
+
+.xcontainer2 .gambar2 img{
+	margin-top: -700px;
+	width: 30%;
+	height: 550px;
+	border-radius: 50px 50px 50px 50px;	
+}
+
+.xcontainer2 .gambar3 img{
+	margin-top: -1100px;
+	margin-left: 800px;
+	width: 30%;
+	height: 550px;
+	border-radius: 50px 50px 50px 50px;	
+}
+
+.xcontainer2 h4{
+	margin-right: 100px;
+	margin-left: 100px;
+	font-size: 30px;
+}
+
+.ycontainer {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-row-gap: 1em;
+	grid-column-gap: 1em;
+}
+
+.ycontainer1 {
+	text-align: center;
+	background-color: orange;
+	color: #FAFAFA;
+	padding-bottom: 25%;
+}
+
+#ycontainer1 {
+	margin-top: 3em;
+}
+
+.headtext {
+	font-size: 40px;
+	font-weight: 700;
+	padding-top: 1.25em;
+}
+
+.subheadtext {
+	font-size: 20px;
+	font-weight: 200;
+}
+
+#kidpic > img {
+	margin-top: 3em;
+	max-width: 50%;
+	height: auto;
+}
+
+.zcontainer {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-row-gap: 1em;
+	grid-column-gap: 1em;
+	position: absolute;
+	/*width: 500px;*/
+	margin-left: 49.50%;
+	left: 0;
+	margin-top: -281px;
+
+}
+
+.zcontainer1 {
+	text-align: center;
+	background-color: #15D3F5;
+	color: #FAFAFA;
+	width: 280%;
+	padding-bottom: 61.5%;
+}
+
+.zcontainer:hover {
+	background-color: #F5BF15;
+}

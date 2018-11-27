@@ -1,0 +1,250 @@
+@font-face {
+	font-family: "Segoe UI";
+	font-weight: 400;
+	/*src:url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff");*/
+}
+
+body {
+	background-image: url(672335.jpg);
+	background-color: #FF5733;
+	background-size: cover;
+	background-attachment: fixed;
+	display: block;
+	font-family: 'Segoe UI';
+	margin: 0;
+	padding: 0;
+}
+
+.header {
+	display: grid;
+	grid-template-columns: 1fr;
+	background-color: #323232;
+	opacity: .96;
+	height: 3.5em;
+	width: 100%;
+	color: #FAFAFA;
+	text-align: center;
+	align-items: center;
+	position: absolute;
+}
+
+ul {
+	list-style-type: none:
+	margin:0;
+	padding: 0;
+}
+
+li {
+	padding-right: 3em;
+	padding-left: 3em;
+	display: inline;
+}
+
+li > a:hover {
+	color: #FF0000;
+}
+
+/*.header > div > ul > li > img {
+	align-items: left;
+	width: 30px;
+	padding-right: : 1em;
+	padding-bottom: 3em;
+}*/
+
+
+.xcontainer {
+	text-align: center;
+	color: #111111;
+	padding-top: 8em;
+}
+
+#x {
+	margin-top: 2.5em;
+	font-size: 55px;
+	font-weight: 600;
+}
+
+#xhello {
+	margin-top: .5em;
+	font-size: 30px;
+	font-weight: 500;
+}
+
+
+#xpic {
+	margin-top: 25em;
+	margin-left: 3em;
+	width: 90%;
+	height: 350px;
+	background-color: #07221E;
+}
+
+#xpic > img {
+	margin-left: 3em;
+	padding-top: 30px;
+	width: 500px;
+	height: 300px;
+	float: left;
+}
+
+#xpic h3{
+	padding-top: 50px;
+	font-size: 50px;
+	font-weight: 100;
+	float: right;
+	padding-right: 50px;
+	color: white; 
+}
+
+#xpic h5{
+	margin-top: -30px;
+	font-size: 30px;
+	font-weight: 100;
+	float: right;
+	padding-right: 250px;
+	color: white;
+}
+
+#xpic h5:hover{
+	color: #F2A90C;
+}
+
+.watchcontainer {
+	text-align: center;
+	margin-top: 8em;
+	padding-bottom: 8em;
+}
+
+#watch > img {
+	max-width: 100%;
+	height: auto;
+	opacity: 10;
+}
+
+
+
+#imagination {
+	font-size: 55px;
+	font-weight: 600;
+}
+
+#imagination:hover {
+	color: #959595;
+}
+
+#shopwatch {
+	font-size: 27px;
+	font-weight: 500;
+	padding-bottom: .5em;
+}
+
+/*.watchtext {
+	padding-bottom: 5em;
+}*/
+
+.xcontainer2 {
+	text-align: center;
+	color: #111111;
+	padding-top: .5em;
+}
+
+.ycontainer {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-row-gap: 1em;
+	grid-column-gap: 1em;
+}
+
+.ycontainer1 {
+	text-align: center;
+	background-color: orange;
+	color: #FAFAFA;
+	padding-bottom: 25%;
+}
+
+#ycontainer1 {
+	margin-top: 3em;
+}
+
+.headtext {
+	font-size: 40px;
+	font-weight: 700;
+	padding-top: 1.25em;
+}
+
+.subheadtext {
+	font-size: 20px;
+	font-weight: 200;
+}
+
+#kidpic > img {
+	margin-top: 3em;
+	max-width: 50%;
+	height: auto;
+}
+
+.zcontainer {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-row-gap: 1em;
+	grid-column-gap: 1em;
+	position: absolute;
+	/*width: 500px;*/
+	margin-left: 49.50%;
+	left: 0;
+	margin-top: -281px;
+
+}
+
+.zcontainer1 {
+	text-align: center;
+	background-color: #15D3F5;
+	color: #FAFAFA;
+	width: 280%;
+	padding-bottom: 61.5%;
+}
+
+.zcontainer:hover {
+	background-color: #F5BF15;
+}
+
+
+
+
+#xpic2 {
+	margin-top: 8em;
+	margin-left: 3em;
+	width: 90%;
+	height: 350px;
+	background-color: #07221E;
+}
+
+#xpic2 > img {
+	margin-left: 3em;
+	padding-top: 30px;
+	width: 500px;
+	height: 300px;
+	float: left;
+}
+
+#xpic2 h3{
+	padding-top: 50px;
+	font-size: 50px;
+	font-weight: 100;
+	float: right;
+	padding-right: 100px;
+	color: white; 
+}
+
+#xpic2 h5{
+	margin-top: -30px;
+	font-size: 30px;
+	font-weight: 100;
+	float: right;
+	padding-right: 250px;
+	color: white;
+}
+
+#xpic2 h5:hover{
+	color: #F2A90C;
+}

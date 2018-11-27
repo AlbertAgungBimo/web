@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login - WEBFAM</title>
+	<link rel="stylesheet" type="text/css" href="LogIn.css">
+</head>
+<body>
+	<div class="header">
+		<div>
+			<ul>
+				<li><a class="a" href="index.html" style="color: white; text-decoration: none;">WEBFAM</a></li>
+				<li><a href="search.html" style="color: white; text-decoration: none;;">Search</a></li>
+				<li><a href="Log In.html" style="color: white; text-decoration: none;">Log In</a></li>
+				<li><a href="Sign Up.html" style="color: white; text-decoration: none;">Sign Up</a></li>
+				<li><a href="About Us.html" style="color: white; text-decoration: none;">About Us</a></li></ul>
+			</div>
+		</div>
+		<div class="bcontainer">
+			<div class="b">LOG IN</div>
+			<div class="bhello">Fill The Columm</div>
+		</div>
+
+		<div class="login-page">
+			<div class="form">
+				<form class="register-form">
+					<input type="text" placeholder="name"/>
+					<input type="password" placeholder="password"/>
+					<input type="text" placeholder="email address"/>
+					<button>create</button>
+					<p class="message">Already registered? <a href="#">Sign In</a></p>
+				</form>
+				<form class="login-form">
+					<input type="text" placeholder="username"/>
+					<input type="password" placeholder="password"/>
+					<button onclick="myFunction()">login</button>
+					<p class="message">Not registered? <a href="#">Create an account</a></p>
+					<p class="message"><a href="#">Forget Password</a></p>
+				</form>
+			</div>
+		</div>
+
+		<script>
+function myFunction() {
+    var txt;
+    if (confirm("Save Password ?")) {
+        txt = "You pressed OK!";
+    } else {
+        txt = "You pressed Cancel!";
+    }
+    document.getElementById("demo").innerHTML = txt;
+}
+</script>
+	</body>
+	</html>

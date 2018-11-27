@@ -1,0 +1,209 @@
+@font-face {
+	font-family: "Segoe UI";
+	font-weight: 400;
+	/*src:url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff");*/
+}
+
+body {
+	background-color: #FF5733;
+	font-family: 'Segoe UI';
+	margin: 0;
+	padding: 0;
+}
+
+
+.col-1{ width: 8.33%;}
+.col-2{	width: 16.66%;}
+.col-3{	width: 25%;}
+.col-4{	width: 33.33%;}
+.col-5{	width: 41.66%;}
+.col-6{	width: 50%;}
+.col-7{	width: 58.33%;}
+.col-8{	width: 66.66%;}
+.col-9{	width: 75%;}
+.col-10{width: 83.33%;}
+.col-11{width: 91.66%;}
+.col-12{width: 100%;}
+
+.row::after{
+	content: "";
+	display: table;
+	clear: both;
+}
+[class*="col-"]{
+	float: left;
+}
+
+.header {
+	margin-top: 0px;
+	display: grid;
+	grid-template-columns: 1fr;
+	background-color: #323232;
+	opacity: .96;
+	height: 3.5em;
+	width: 100%;
+	color: #FAFAFA;
+	text-align: center;
+	align-items: center;
+	position: absolute;
+}
+
+ul {
+	list-style-type: none:
+	margin:0;
+	padding: 0;
+}
+
+li {
+	padding-right: 3em;
+	padding-left: 3em;
+	display: inline;
+}
+
+li > a:hover {
+	color: #FF0000;
+}
+
+/*.header > div > ul > li > img {
+	align-items: left;
+	width: 30px;
+	padding-right: : 1em;
+	padding-bottom: 3em;
+}*/
+
+
+.contain {
+	padding-top: 5px;
+	margin-left:220px;
+	float: left;
+	max-width: 25%;
+}
+
+.x {
+	font-size: 4em;
+	color: solid black;
+}
+
+
+.xcontainer {
+	width: 100%;
+	height: 600px;
+	text-align: center;
+	padding-top: 8em;
+}
+
+.xcontainer h1{
+	font-weight: 8em;
+	font-size: 75px;
+	text-align: center;
+}
+
+.xcontainer img{
+	height: 320px;
+	width: 320px;
+	border-radius: 50px 50px 50px 50px;
+	align-self: center;
+}
+
+.Tree {
+	padding-bottom: 40px;
+	margin-top: 50px;
+	align-self: center;
+	text-align: center;
+	font-size: 80px;
+}
+
+.kotaq1{
+	width: 100%;
+	height: 200px;
+	background-color: #A38D88;
+}
+
+.kotaq1 h3{
+	text-align: left;
+	font-size: 80px;
+	color: white;
+	font-weight: 100;
+}
+
+.kotaq1 img{
+	width: 150px;
+	height: 150px;
+	padding-top: 25px;
+	border-radius: 50px;
+}
+
+.kotaq2{
+	width: 100%;
+	height: 200px;
+	background-color: #766C69;
+}
+
+.kotaq2 h3{
+	text-align: left;
+	font-size: 80px;
+	color: white;
+	font-weight: 100;
+}
+
+.kotaq2 img{
+	width: 150px;
+	height: 150px;
+	padding-top: 25px;
+	border-radius: 50px;
+}
+
+.kotaq3{
+	width: 100%;
+	height: 200px;
+	background-color: #3F3A38;
+}
+
+.kotaq3 h3{
+	text-align: left;
+	font-size: 80px;
+	color: white;
+	font-weight: 100;
+}
+
+.kotaq3 img{
+	width: 150px;
+	height: 150px;
+	padding-top: 25px;
+	border-radius: 50px;
+}
+
+.add button {
+	align-self: center;
+	margin: auto;
+	display: block;
+	width: 400px;
+	height: 100px;
+	font-size: 35px;
+	background-color: #F87C4B;
+	border: 0;
+}
+
+.add button {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background: #4CAF50;
+  width: 40%;
+  border: 0;
+  padding: 15px;
+  color: #FFFFFF;
+  font-size: 20px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+}
+.add button:hover,.form button:active,.form button:focus {
+  background: #43A047;
+}
+
+
+
+/*.x h2 {
+	margin-right: 4em;
+}*/
